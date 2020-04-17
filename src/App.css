@@ -28,10 +28,35 @@
   color: #61dafb;
 }
 
+.profiles-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+
+}
+
+.item-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+}
+
+.profile-wrapper {
+  padding: 30px;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

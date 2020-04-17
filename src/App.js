@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './componets/navigaiton';
 import Profile from './componets/profile'
 import ProfileContainer from './componets/profile-container';
+import NavBarBottom from './componets/narbar-bottom';
 
 
 class App extends React.Component {
@@ -27,6 +28,7 @@ class App extends React.Component {
         <div className="profile-contianer">
           <ProfileContainer />
         </div>
+        <NavBarBottom />
       </div>
     )
   }

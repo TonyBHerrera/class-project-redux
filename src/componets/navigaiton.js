@@ -1,11 +1,12 @@
 import React, { Component } from "react"
 
+
 class NavBar extends Component {
     render() {
         return (
             <div className="nav-wrapper">
                 <div className="left-side">
-                    <p>Logo</p>
+                    <img src={require("./tested-on-animals.png")} />
                 </div>
 
                 <div className="center">
